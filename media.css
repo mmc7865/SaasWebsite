@@ -1,0 +1,137 @@
+@media screen and (max-width: 678px) {
+    .logo h1{
+        font-size: 25px;
+    }
+    .page1 .nav-pills{
+        display: none;
+    }
+    .hamburger{
+        display: initial;
+        font-size: 25px;
+    }
+    .buttons{
+        display: none;
+    }
+    .user{
+        display: initial;
+        font-size: 25px;
+    }
+    .page1 nav{
+        position: static;
+        padding: 20px;
+    }
+    .hero h1{
+        width: 95%;
+        font-size: 35px;
+        margin: 20% auto 10% auto;
+    }
+    .hero p{
+        width: 90%;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+    .hero-image{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .details{
+        padding: 15px;
+    }
+    .details h1{
+        font-size: 16px;
+    }
+    .details .detail{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .details span{
+        font-size: 12px;
+        text-align: center;
+    }
+    .page2, .page3, .page4{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .contents{
+        width: 100%;
+        padding: 10px;
+    }
+    .contents h2{
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contents a{
+        margin: auto;
+    }
+    .lines{
+        align-items: start;
+    }
+    .image{
+        width: 60%;
+        margin: auto;
+    }
+    .page5 .cards{
+        flex-direction: column;
+    }
+    .page5 .cards .card{
+        width: 100%;
+        flex-direction: column;
+    }
+    .page5 .cards .card h2{
+        line-height: 35px;
+        margin-bottom: 5%;
+    }
+    .page5 .cards .card p{
+        width: 90%;
+        margin-bottom: 15%;
+    }
+    .page5 h2{
+        font-size: 25px;
+    }
+    .testimonials{
+        flex-direction: column;
+    }
+    .testimonials .customers{
+        width: 100%;
+    }
+    .page5 .dots{
+        margin-top: -15%;
+    }
+    .page6 .banner{
+        flex-direction: column;
+
+    }
+    .banner .contents{
+        padding: 30px;
+    }
+    .banner .store-buttons{
+        padding-bottom: 20px;
+    }
+    .page6 .subscribe{
+        padding: 20px;
+    }
+    .subscribe h2{
+        width: 100%;
+    }
+    .subscribe form{
+        width: 100%;
+        flex-direction: column;
+    }
+    .subscribe form input{
+        width: 80%;
+    }
+    .subscribe h4{
+        text-align: center;
+    }
+    footer .logo{
+        display: none;
+    }
+    footer .nav-pills{
+        display: none;
+    }
+}
